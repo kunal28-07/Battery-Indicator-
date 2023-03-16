@@ -7,7 +7,7 @@ navigator.getBattery().then(function (battery) {
 });
 
 let sec = document.querySelector(".sec");
-let toggle = document.querySelector(".toggle");
+let toggle = document.querySelector(".slider");
 toggle.addEventListener("click", function () {
   sec.classList.toggle("dark");
 });
